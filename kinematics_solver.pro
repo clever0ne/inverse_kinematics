@@ -1,11 +1,11 @@
 TEMPLATE = app
-CONFIG += console c++11
+CONFIG += console c++17
 CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-    src/main/inverse_kinematics.cpp \
+    src/main/kinematics_solver.cpp \
     src/main/main.cpp
 
 HEADERS += \
-    src/main/inverse_kinematics.h
+    src/main/kinematics_solver.h
